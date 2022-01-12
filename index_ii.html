@@ -1,176 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incubando Inversionistas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/rotating-card.css" rel="stylesheet" />
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incubando Inversionistas</title>
+  <link rel="preload" href="css/styles.css" as="styles">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel = "preconnect" href = "https://fonts.googleapis.com">
+  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+  <link href = "https: //fonts.googleapis.com/css2? family = Krub: ital @ 1 & display = swap "rel =" stylesheet ">
+  <link rel="preload" href="css/styles.css" as="style">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Incubando Inversionistas</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Quiero invertir en...
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Acciones</a></li>
-                      <li><a class="dropdown-item" href="#">Criptomonedas</a></li>
-                      <li><a class="dropdown-item" href="#">Bonos</a></li>
-                      <li><a class="dropdown-item" href="#">ETFs</a></li>
-                      <li><a class="dropdown-item" href="#">Fondos de inversión</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </div>
+  
+<header class="header"> 
+  
+</header>
 
-    <div class="card-container">
-      <div class="card">
-          <div class="front">
-              <div class="cover">
-                  <img src="images/rotating_card_thumb3.png"/>
-              </div>
-              <div class="user">
-                  <img class="img-circle" src="images/rotating_card_profile.png"/>
-              </div>
-              <div class="content">
-                  <div class="main">
-                      <h3 class="name">Inna Corman</h3>
-                      <p class="profession">Product Manager</p>
+<div class=" nav-bg">
+  <nav class="navegacion-principal contenedor">
+      <a href="#">Inicio</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Contacto</a>
+      <a href="#">Iniciar Sesión</a> 
+      <a href="#">Registrarse</a>
+  </nav>
+</div>
 
-                      <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+<section class="hero">
+  <div class="contenido-hero">
+      <h2>Diseño y Desarrollo Freelancer</h2>
+      <div class="ubicacion">   
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <circle cx="12" cy="11" r="3" />
+              <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            Guadalajara, Jalisco
+          </p>
+      </div>
+        <a href="#" class="boton">Contactar</a>
+      </div>
+</section>          
+
+<!--<main class="contenedor sombra"> -->
+  
+  <div class="contenedor sombra">
+  <h2>¿Qué son y cómo invierto en…?</h2>
+      
+      <div class="servicios">
+      <section class="servicio">
+              <h3>Acciones</h3>
+              <div class="iconos">
+                  <img src="./icons/acciones_icon.png" alt="icono que representa acciones" width="100px" height="70px">
+              
+          </div>
+              <p>¿Qué son? Son títulos de renta variable que le permiten a las personas ser propietarios de una parte de la empresa que se encarga de emitir el título, lo que lo vuelve accionista de esta y le concede derechos políticos y económicos.</p>
+      </section>
+        
+      <section class="servicio">
+              <h3>Criptomonedas</h3>
+              <div class="iconos">
+                  <img src="./icons/criptomonedas_icon.png" alt="icono que representa criptomonedas" width="100px" height="70px">
+              </div>
+          <p>Las criptomonedas, también llamadas criptodivisas o criptoactivos, son un medio digital de intercambio. Cumple la función de una moneda, y de ahí que se las conozca con ese nombre. Sin embargo, es algo totalmente digital, que utiliza métodos criptográficos para asegurar sus transacciones financieras, controlar la creación de nuevas unidades y verificar la transferencia de activos.</p>
+      </section>
+
+          <section class="servicio">
+              <h3>Bonos</h3>
+              <div class="iconos">
+                  <img src="./icons/bonos_icon.png" alt="icono que representa bonos" width="100px" height="70px">
+              </div> 
+          <p>Los bonos financieros son básicamente certificados de deuda, promesas de pago futuro o instrumentos emitidos por un prestatario, siendo así el documento que lo obliga directamente a pagar una deuda.</p>
+          </section>  
+
+          <section class="servicio">
+            <h3>ETFs</h3>
+            <div class="iconos">
+                <img src="./icons/etf_icon.png" alt="icono que representa ETFs" width="100px" height="70px">
+            </div> 
+        <p>Es un fondo de inversión que cotiza en alguna Bolsa de Valores, es decir, se puede comprar o vender fácilmente como si estuvieras comprando acciones individuales.</p>
+        </section>
+          </div> 
+  </main>
+
+  <section>
+      <h2>Contacto</h2>
+      <form class="formulario" action="">
+          <!-- Informacion Personal -->
+          <fieldset>
+              <legend>Informacion Personal</legend>
+
+              <div class="contenedor-campos">
+                  <div class="campo">
+                      <label for="name">Nombre: </label>
+                      <input class="input-text" type="text" id="name" placeholder="Nombre Completo" required>
                   </div>
-                  <div class="footer">
-                      <div class="rating">
-                          <i class="fa fa-mail-forward"></i> Auto Rotation
-                      </div>
+
+                  <div class="campo">
+                      <label for="telefono">Telefono: </label>
+                      <input class="input-text" type="tel" id="telefono" placeholder="Telefono" required>
+                  </div>
+
+                  <div class="campo">
+                      <label for="email">Correo: </label>
+                      <input class="input-text" type="email" id="email" placeholder="Mail" required>
+                  </div>
+
+                  <div class="campo">
+                      <label for="text">Mensaje: </label>
+                      <textarea class="input-text" id="text"></textarea>
                   </div>
               </div>
-          </div> <!-- end front panel -->
-          <div class="back">
-              <div class="header">
-                  <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+
+              <div class="alinear-derecha flex">
+                  <button class="boton w-sm-100" type="submit">Enviar</button>
               </div>
-              <div class="content">
-                  <div class="main">
-                      <h4 class="text-center">Job Description</h4>
-                      <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+      </fieldset> 
+      </form>
+  </div>
+</div>
+  </section>
 
-                      <div class="stats-container">
-                          <div class="stats">
-                              <h4>235</h4>
-                              <p>
-                                  Followers
-                              </p>
-                          </div>
-                          <div class="stats">
-                              <h4>114</h4>
-                              <p>
-                                  Following
-                              </p>
-                          </div>
-                          <div class="stats">
-                              <h4>35</h4>
-                              <p>
-                                  Projects
-                              </p>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-              <div class="footer">
-                  <div class="social-links text-center">
-                      <a href="https://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                      <a href="https://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                      <a href="https://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                  </div>
-              </div>
-          </div> <!-- end back panel -->
-      </div> <!-- end card -->
-  </div> <!-- end card-container -->
-
-    <!-- <div class="card" style="width: 18rem;">
-        <img src="img/hero.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="img/hero.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="img/hero.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="img/hero.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="img/hero.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-    
-    <div class="card" style="width: 18rem;">
-        <img src="img/hero.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div> -->
+<footer class="footer">
+  <p>Todos los derechos reservados. Fabiola Ornelas</p>
+</footer>
 
 </body>
 </html>
