@@ -191,7 +191,7 @@ h1,h2,h3{
 /* }  */
 
 @media (min-width: 768px) {
-    .servicios{
+    .card-conteiner{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
