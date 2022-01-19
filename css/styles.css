@@ -28,9 +28,13 @@ h1{
     font-family: 'Camria';
 }
 
-
-h2{
-    font-size: 5.8rem;
+.contenido-hero h2{
+    font-size: 7.8rem;
+    font-weight: bolder;
+}
+.contenedor h2{
+    font-size: 3.8rem;
+    font-weight: bolder;
 }
 h3{
     font-size: 1.8rem;
