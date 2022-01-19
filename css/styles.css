@@ -5,6 +5,7 @@
     --primario: #24f3e2;
     --secundario: #2d293f;
     --gris: #757575;
+    --medioverde: #0e6649;
     --fuente-principal:3.8rem;
 }
 
@@ -19,7 +20,11 @@ html{
 body{
     font-size: 16px; /* 1rem = 10px */
     font-family: "Krub", sans-serif;
-    background-image: linear-gradient(to top, #9681b1 0%, var(--blanco) 50%);
+    background-image: linear-gradient(to top, #189274 0%, var(--blanco) 100%);
+}
+
+.header{
+    background-color: var(--medioverde);
 }
 
 .header h1{
@@ -27,6 +32,7 @@ body{
     font-style: oblique;
     font-family: 'Camria';
     font-weight: bolder;
+    color:var(--blanco);
 }
 
 h1{
@@ -245,7 +251,7 @@ h1,h2,h3{
     font-family: 'Camria';
 }
 .formulario{
-    background-color: var(--gris);
+    background-color: var(--medioverde);
     width: min(80rem, 100%);
     margin: 0 auto;
     padding: 2rem;
