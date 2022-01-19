@@ -5,6 +5,7 @@
     --primario: #24f3e2;
     --secundario: #2d293f;
     --gris: #757575;
+    --medioverde: #0e6649;
     --fuente-principal:3.8rem;
 }
 
@@ -19,7 +20,19 @@ html{
 body{
     font-size: 16px; /* 1rem = 10px */
     font-family: "Krub", sans-serif;
-    background-image: linear-gradient(to top, #9681b1 0%, var(--blanco) 50%);
+    background-image: linear-gradient(to top, #189274 0%, var(--blanco) 100%);
+}
+
+.header{
+    background-color: var(--medioverde);
+}
+
+.header h1{
+    font-size: 4.8rem;
+    font-style: oblique;
+    font-family: 'Camria';
+    font-weight: bolder;
+    color:var(--blanco);
 }
 
 h1{
@@ -28,15 +41,19 @@ h1{
     font-family: 'Camria';
 }
 
-
-h6{
-    font-size: 5.8rem;
+.contenido-hero h2{
+    font-size: 7.8rem;
+    font-weight: bolder;
+}
+.contenedor h2{
+    font-size: 3.8rem;
+    font-weight: bolder;
 }
 h3{
     font-size: 1.8rem;
 }
 
-h1,h6,h3{
+h1,h2,h3{
     text-align: center;
 }
 
@@ -82,7 +99,7 @@ h1,h6,h3{
         width: auto;
     }
 }
- .nav-bg{
+ /* .nav-bg{
     background-color: var(--secundario);
 } 
  .navbar-brand{
@@ -90,7 +107,18 @@ h1,h6,h3{
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
-} 
+}  */
+
+.navbar a{
+    font-size: 1.8rem;
+}
+.navbar button{
+    font-size: 1.8rem;
+}
+.navbar input{
+    font-size: 1.8rem;
+}
+
 .container-fluid{
     display: block;
     text-align: center;
@@ -137,7 +165,7 @@ h1,h6,h3{
     justify-content: center;
 }
 
-.contenido-hero h7,
+.contenido-hero h2,
 .contenido-hero p{
     color: var(--blanco);
 }
@@ -150,20 +178,21 @@ h1,h6,h3{
 
 .iframe-container{
     position: relative;
+    /* border: 20rem; */
+    padding-top: 20rem;
+    padding-bottom: 20rem;
     width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin-bottom: 2rem;
+    height: 100%;
+
 }
 .iframe-container iframe{
     position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    width: 80%;
-    height: 80%;
-    
+    left: 22.5%;
+    top: 5%;
+    right: 0%;
+    bottom: 0%;
+    width: 55%;
+    height: 90%;
 }
 
 /* servicios */
@@ -222,7 +251,7 @@ h1,h6,h3{
     font-family: 'Camria';
 }
 .formulario{
-    background-color: var(--gris);
+    background-color: var(--medioverde);
     width: min(80rem, 100%);
     margin: 0 auto;
     padding: 2rem;

@@ -256,12 +256,10 @@ table {
     margin: 2cm .5cm;
   }
   p,
-  h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-  h2,
   h3 {
     page-break-after: avoid;
   }
@@ -470,13 +468,11 @@ cite {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
 .h1,
-.h2,
 .h3,
 .h4,
 .h5,
@@ -488,25 +484,21 @@ h6,
 }
 
 h1 small,
-h2 small,
 h3 small,
 h4 small,
 h5 small,
 h6 small,
 .h1 small,
-.h2 small,
 .h3 small,
 .h4 small,
 .h5 small,
 .h6 small,
 h1 .small,
-h2 .small,
 h3 .small,
 h4 .small,
 h5 .small,
 h6 .small,
 .h1 .small,
-.h2 .small,
 .h3 .small,
 .h4 .small,
 .h5 .small,
@@ -517,17 +509,14 @@ h6 .small,
 }
 
 h1,
-h2,
 h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 h1 small,
-h2 small,
 h3 small,
 h1 .small,
-h2 .small,
 h3 .small {
   font-size: 65%;
 }
@@ -551,11 +540,6 @@ h6 .small {
 h1,
 .h1 {
   font-size: 36px;
-}
-
-h2,
-.h2 {
-  font-size: 30px;
 }
 
 h3,
@@ -4319,7 +4303,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border: 1px solid transparent;
 }
 
