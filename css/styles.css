@@ -29,14 +29,14 @@ h1{
 }
 
 
-h7{
+h2{
     font-size: 5.8rem;
 }
 h3{
     font-size: 1.8rem;
 }
 
-h1,h7,h3{
+h1,h2,h3{
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ h1,h7,h3{
     justify-content: center;
 }
 
-.contenido-hero h7,
+.contenido-hero h2,
 .contenido-hero p{
     color: var(--blanco);
 }
@@ -150,19 +150,21 @@ h1,h7,h3{
 
 .iframe-container{
     position: relative;
+    /* border: 20rem; */
+    padding-top: 20rem;
+    padding-bottom: 20rem;
     width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin-bottom: 2rem;
+    height: 100%;
+
 }
 .iframe-container iframe{
     position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    width: 100%;
-    height: 100%;
+    left: 22.5%;
+    top: 5%;
+    right: 0%;
+    bottom: 0%;
+    width: 55%;
+    height: 90%;
 }
 
 /* servicios */
