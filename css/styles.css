@@ -99,35 +99,26 @@ h1,h2,h3{
         width: auto;
     }
 }
- /* .nav-bg{
+ .nav-bg{
     background-color: var(--secundario);
 } 
- .navbar-brand{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
-}  */
-
-.navbar a{
-    font-size: 1.8rem;
-}
-.navbar button{
-    font-size: 1.8rem;
-}
-.navbar input{
-    font-size: 1.8rem;
-}
+ .navbar{
+    position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  font-size: 2rem;
+    
+} 
 
 .container-fluid{
     display: block;
     text-align: center;
     color: var(--blanco);
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
- .navegacion-principal a:hover{
+.navegacion-principal a:hover{
     color: var(--oscuro);
     background-color: var(--primario);
 } 
@@ -213,6 +204,11 @@ h1,h2,h3{
     margin-top: 2rem;
     
  } 
+.servicio{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+}
 
 @media (min-width: 768px) { 
      .card{
