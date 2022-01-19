@@ -22,6 +22,13 @@ body{
     background-image: linear-gradient(to top, #9681b1 0%, var(--blanco) 50%);
 }
 
+.header h1{
+    font-size: 4.8rem;
+    font-style: oblique;
+    font-family: 'Camria';
+    font-weight: bolder;
+}
+
 h1{
     font-size: 3.8rem;
     font-style: oblique;
@@ -86,7 +93,7 @@ h1,h2,h3{
         width: auto;
     }
 }
- .nav-bg{
+ /* .nav-bg{
     background-color: var(--secundario);
 } 
  .navbar-brand{
@@ -94,7 +101,18 @@ h1,h2,h3{
     flex-direction: row;
     justify-content: space-between;
     align-items: center; 
-} 
+}  */
+
+.navbar a{
+    font-size: 1.8rem;
+}
+.navbar button{
+    font-size: 1.8rem;
+}
+.navbar input{
+    font-size: 1.8rem;
+}
+
 .container-fluid{
     display: block;
     text-align: center;
