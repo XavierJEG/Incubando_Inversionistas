@@ -29,14 +29,14 @@ h1{
 }
 
 
-h2{
+h7{
     font-size: 5.8rem;
 }
 h3{
     font-size: 1.8rem;
 }
 
-h1,h2,h3{
+h1,h7,h3{
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ h1,h2,h3{
     justify-content: center;
 }
 
-.contenido-hero h2,
+.contenido-hero h7,
 .contenido-hero p{
     color: var(--blanco);
 }
