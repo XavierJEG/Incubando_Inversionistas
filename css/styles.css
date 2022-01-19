@@ -102,29 +102,22 @@ h1,h2,h3{
  /* .nav-bg{
     background-color: var(--secundario);
 } 
- .navbar-brand{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
-}  */
-
-.navbar a{
-    font-size: 1.8rem;
-}
-.navbar button{
-    font-size: 1.8rem;
-}
-.navbar input{
-    font-size: 1.8rem;
-}
-
+ .navbar{
+    position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  font-size: 2rem;
+    
+} 
 .container-fluid{
     display: block;
     text-align: center;
     color: var(--blanco);
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+.nav-tabs .dropdown-menu {
+    font-size: 3rem;
 }
 
  .navegacion-principal a:hover{
