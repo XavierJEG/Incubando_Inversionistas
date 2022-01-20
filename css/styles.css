@@ -28,9 +28,9 @@ body{
 }
 
 .header h1{
-    font-size: 4.8rem;
+    font-size: 8.8rem;
     font-style: oblique;
-    font-family: 'Camria';
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color:var(--blanco);
 }
@@ -105,7 +105,7 @@ h1,h2,h3{
  .navbar{
     position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border: 1px solid transparent;
   font-size: 2rem;
     
