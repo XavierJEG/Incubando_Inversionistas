@@ -124,12 +124,12 @@ h1,h2,h3{
 } 
 
 /* Media Queries para barra de navegación */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-between;
     }
-}
+} */
 
 /* Inicio de Hero y Ubicación*/
 .hero{
